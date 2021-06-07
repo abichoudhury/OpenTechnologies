@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --navbar-height:0px
+}
+
+#logo{
+    top: 27px;
+    left: 120px;
+    width: 123px;
+    height: 123px;
+    margin-left: 120px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+#navbar ul{
+    display: flex;
+    text-align: right;
+}
+
+#navbar ul li{
+    font-size: 1.8rem;
+    list-style: none;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+#navbar::before{
+    content: "";
+    background-color: whitesmoke;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#navbar ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #222222;
+    opacity: 1;
+}
+
+.btn{
+    padding: 5px;
+    margin: 15px;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#login{
+    color: #9F69C9;
+    border: 2px solid #9F69C9;
+}
+
+#get{
+    background-color:#663399;
+    color: white;
+    border: 2px solid #663399;
+}
+
+#blob{
+    /* background-image: url("img/blob-small.svg"); */
+    top: 213px;
+    left: -179px;
+    width: 571px;
+    height: 572px;
+}
+#rightblob{
+    margin-left: 807px;
+    margin-top: -245px;
+    width: 147%;
+    position: relative;
+}
+#leftblob{
+    width: 504px;
+    height: 493px;
+    margin-left: -35px;
+    margin-top: -500px;
+    position: relative;
+}
+
+#super{
+    position: absolute;
+    margin-top: -426px;
+    margin-left: -162px;
+}
+#line{
+    margin-left: -162px;
+    margin-top: -317px;
+    width: 220px;
+    position: absolute;
+}
+#img-video{
+    margin-left: 172px;
+    margin-top: -259px;
+    width: 90%;
+    position: relative;
+}
+#dots{
+    margin-left: 335px;
+    margin-top: -41px;
+    width: 475px;
+    position: absolute;
+}
+#group6{
+    margin-left: 927px;
+    margin-top: -435px;
+    width: 574px;
+    position: absolute;
+}
+#rightdots{
+    margin-left: 1041px;
+    margin-top: 73px;
+    width: 475px;
+    position: absolute;
+}
+
+#wave{
+    position: relative;
+    top: 132px;
+    width: 100%;
+}
+#rect1{
+    margin-top: -564px;
+    margin-left: 130px;
+    position: absolute;
+    width: 400px;
+}
+#pay{
+    margin-top: -511px;
+    margin-left: 188px;
+    position: absolute;
+}
+#cash{
+    margin-top: -415px;
+    margin-left: 195px;
+    position: absolute;
+}
+#loan{
+    margin-top: -385px;
+    margin-left: 195px;
+    position: absolute;
+}
+
+#rect2{
+    margin-top: -311px;
+    margin-left: 130px;
+    position: absolute;
+    width: 400px;
+}
+#low{
+    margin-top: -261px;
+    margin-left: 188px;
+    position: absolute;
+}
+#interest{
+    margin-top: -161px;
+    margin-left: 195px;
+    position: absolute;
+}
+#financi{
+    margin-top: -135px;
+    margin-left: 195px;
+    position: absolute;
+}
+
+#rect3{
+    margin-top: -58px;
+    margin-left: 130px;
+    position: absolute;
+    width: 400px;
+}
+#secure{
+    margin-top: -6px;
+    margin-left: 188px;
+    position: absolute;
+
+}
+#zero{
+    margin-top: 92px;
+    margin-left: 195px;
+    position: absolute;
+}
+#paid{
+    margin-top: 122px;
+    margin-left: 195px;
+    position: absolute;
+}
+
+#rect4{
+    margin-top: -466px;
+    margin-left: 510px;
+    position: absolute;
+    width: 389px;
+}
+#feature{
+    margin-top: -412px;
+    margin-left: 569px;
+    position: absolute;
+}
+#ace{
+    margin-top: -307px;
+    margin-left: 576px;
+    position: absolute;
+}
+#manage{
+    margin-top: -280px;
+    margin-left: 575px;
+    position: absolute;
+}
+
+#rect5{
+    margin-top: -185px;
+    margin-left: 517px;
+    position: absolute;
+    width: 400px;
+}
+#covi{
+    margin-top: -131px;
+    margin-left: 571px;
+    position: absolute;
+}
+#fightcovid{
+    margin-top: -29px;
+    margin-left: 579px;
+    position: absolute;
+}
+#emi{
+    margin-top: -3px;
+    margin-left: 579px;
+    position: absolute;
+}
+
+#business{
+    margin-top: -332px;
+    margin-left: 940px;
+    position: absolute;
+}
+#line1{
+    margin-top: -215px;
+    margin-left: 944px;
+    position: absolute;
+    width: 120px;
+}
+#handson{
+    margin-top: -190px;
+    margin-left: 945px;
+    position: absolute;
+}
+
+#OpenAccount{
+    margin-top: -71px;
+    margin-left: 945px;
+    position: absolute;
+    color: #9F69C9;
+    border: 2px solid #9F69C9;
+}
